@@ -85,3 +85,45 @@ Each product backlog item can contain,
 - Acceptance Criteria
 
 Product owner is the responsible person for product backlog.
+
+Product backlog is created on the objective of how the product should achieve. The product owner collaborate with the stakeholders to understand the business requirement, analysis the markets. There should be only one product goal at a time.
+
+Adding product backlog is an ongoing process. The product owner is responsible for add, update or remove product backlog any time wants. This make the product owner work closely with the developers. With product refinement, the product owner help the developers to break down the backlog into smaller task with details, size and order.
+
+**Sizing** is the estimation, developer is responsible of.
+
+To reduce complexity, often the product owner and developer make the tradeoffs. And this is not the part of the SCRUM. The SCRUM team decides when and how the refinement should happen.
+
+This is why the product backlog is never completed and always changing.
+
+The top backlog items should be
+
+- Fit for the sprint
+- Immediately actionable
+- SCRUM team agree to make it done
+
+### Real World Example
+
+Let's say we want to make a tour app that will display the events off upcoming tours of various tour group.
+
+First the `Product Owner` define the goal and create the backlog.
+
+**Product Goal:** Help 1000 tourist to find their next team.
+
+**Product Backlog:**
+
+- Gather all the tour groups information available out there
+  - Facebook page
+  - Facebook group
+  - Corresponding persons
+- Easy Search and filter functionality
+  - Search by group
+  - Search by place
+  - Search by area
+  - Search by budget
+- Continuously gather all the events
+  - Place
+  - Group
+  - Page
+  - Budget
+  - Date
