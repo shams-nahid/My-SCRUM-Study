@@ -102,7 +102,7 @@ The top backlog items should be
 - Immediately actionable
 - SCRUM team agree to make it done
 
-### Real World Example
+### Real World Example: Product Goal and Product Backlog
 
 Let's say we want to make a tour app that will display the events off upcoming tours of various tour group.
 
@@ -112,18 +112,96 @@ First the `Product Owner` define the goal and create the backlog.
 
 **Product Backlog:**
 
+- List of upcoming events
+- List of tour groups
 - Gather all the tour groups information available out there
   - Facebook page
   - Facebook group
   - Corresponding persons
-- Easy Search and filter functionality
-  - Search by group
-  - Search by place
-  - Search by area
-  - Search by budget
+- Easy Search and filter functionality of
+  - Groups
+  - Events
+    - By group
+    - By place
+    - By area
+    - By budget
 - Continuously gather all the events
   - Place
   - Group
   - Page
   - Budget
   - Date
+
+### User Stories
+
+When the product owner added the product backlog, it do not mean a lot. To make sense, the product owner work closely with the developers and put necessary details.
+
+From product backlog, the `Product Owner`, `SCRUM Master` and `Developers` generate the `Backlog Item` with
+
+- Description
+- Order
+- Size
+- Value
+- Acceptance Criteria
+
+The SCRUM guide itself, does not provide any template or recommendation, how a `Backlog Item` should be. It is very common to use the `User Stories` as `Backlog Item`. It is so common, the `Backlog Item` itself often refer as the `User Stories`.
+
+In `User Stories`, commonly we put a short description, from a product user perspective, who desired the functionality.
+
+While writing a users stories, we go though a 3 step process, also known as 3 C's,
+
+- Card
+- Conversation
+- Confirmation
+
+**Card:** In the card, we usually refer a stories as followings
+
+> As a **< USER ROLE >**, I want **< SOME OBJECTIVE >**, so that **< SOME OUTCOME >**.
+
+Here the
+
+- `User Role` is the `WHO`
+- `Some Objective` is the `WHAT`
+- `Some Outcome` or benefit is the `WHY`
+
+**Conversation:** It's like reminder what need to done. It should be brief to the point.
+
+**Confirmation:** This determine the acceptance criteria.It's a way to test if the story is being completed.
+
+The story does not always have to be the 3 C's. It should be decided by the SCRUM team which format works best. Ans yes, it is okay to use different story format in single project.
+
+Even `User Stories` are not a mandatory part of the SCRUM.
+
+### Real World Example: User Stories
+
+We had a product backlog
+
+> List of upcoming events
+
+We can transform this as a User stories as followings
+
+Story: As a customer, I want to see the list of upcoming tour events, so I can choose one and contact.
+
+Description: The is the core feature. For each tour group, there should be list of events be entry into system. The customer will come and select one from them.
+
+Acceptance Criteria:
+
+- In the app, there should be list of events
+
+### Planning Poker
+
+Humans mind is more trained in comparing rather than measuring. With this context, In SCRUM for backlog items, instead of estimation, we are using the sizing terms.
+
+For example, let's consider climbing a mountain. If this is a small hill, we consider the size 0 and for Everest it will be 100.
+
+Each developer will put a number between 1 to 100 for a backlog item. Then will be a brief discussion specially the highest and lowest scoring. This points the complexity and possibly the effective solution.
+
+The initial sizing may have big difference between developes, but with brief discussion and repeat the precess, it is possible to come up a fixed sizing.
+
+Even with the discussion, we can reduce or change some objectives of the backlog, as long as the SPRINT Goal and the Product Goal is consistent.
+
+This method is referred as `Planning Poker`.
+
+### Adding Value To Product Backlog
+
+Along with the developers put the backlog estimation, the product owner need to put the backlog value as well. SCRUM mandates, each product backlog should have a value. I can be done by creating a simple value scale. In the scale, you can add multiple values starting from 100 to 1000. When we have different product backlog items, we can arranged them base on perceived values on the scale. And using the scale we can assign each product backlog items the value as expected.
