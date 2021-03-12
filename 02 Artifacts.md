@@ -1,6 +1,6 @@
-## Artifacts
+# Artifacts
 
-### Overview
+## Overview
 
 ---
 
@@ -32,7 +32,7 @@ Here the `Commitment` stands for
 - Why the work is important
 - What is the desired outcome
 
-### Product Backlog
+## Product Backlog
 
 ---
 
@@ -210,7 +210,7 @@ This method is referred as `Planning Poker`.
 
 Along with the developers put the backlog estimation, the product owner need to put the backlog value as well. SCRUM mandates, each product backlog should have a value. I can be done by creating a simple value scale. In the scale, you can add multiple values starting from 100 to 1000. When we have different product backlog items, we can arranged them base on perceived values on the scale. And using the scale we can assign each product backlog items the value as expected.
 
-### Spring Backlog
+## Spring Backlog
 
 ---
 
@@ -233,3 +233,77 @@ Any unfinished work from the `Sprint Backlog` will be goes back to the `Product 
 ### Sprint Scope vs Sprint Goal
 
 ---
+
+During a Sprint, the `Sprint Scope` can be changed, but we can not change the `Sprint Goal`.
+
+Let's go for an example. Let's say we are going for a trip in the next weekend. We are spent the whole weekend in the sea beach. Now, to do this, we have to do the packing, purchase train ticket and book a hotel. But due to some emergency, we may have to use bus as transport instead of bus and have to purchase bus ticket. See, here we are going to the beach for weekend with bus not by train.
+
+So here,
+
+- Packing
+- Purchase ticket
+- Book hotel
+
+Are considered as the `Spring Scope`, but spending weekend in the sea beach is `Spring Goal`.
+
+To meet the `Spring Goal`, we may make compromise in terms of the features but not the quality.
+
+## Product Increment
+
+---
+
+`Product Increment` is
+
+- A new version of product
+- Additive to all previous increments from all the previous `Sprints`.
+- Should be useable without needing any additional work
+
+The commitment of `Product Increment` is `Definition of Done`. For `Definition of Done`, let's do an example,
+
+In our app, as tourists, we want to display a list of upcoming events so they can contact the event host and join the event.
+
+When we convert this `Product Backlog` into `Sprint Backlog`, it will be
+
+- Show list of events
+- User can select and get the contact information of the event host
+
+Now, after completed the `Sprint Backlog`, if we missing the feature of adding event host contact information or do not show them, then, it is not completed aka does not meet the criteria of `Definition Of Done`.
+
+A sample of `Definition of Done` can be,
+
+- The acceptance criteria defined must meet
+- Code should be reviewed by at least 2 independent developers
+- Technical document should be written and reviewed
+- Unit test must be written and passed
+- Cross browser testing should be done at least 2 version with mobile view
+- Accessability test passing
+- Continuous Integration test passing
+- Non functional test
+  - Operation should be performed within certain defined time frame
+  - Should support certain defined con-current users
+  - Should check security vulnerabilities
+
+The more experience the `Sprint Team` will be, the more strict rule should be in the `Definition of Done`. In the `Sprint Retrospective`, the team will discuss, how can increase the product quality aka the `Definition of Done`.
+
+In this case, whenever a `Product Backlog Item` meets the `Definition of Done`, a new `Product Increment` happen.
+
+SCRUM only describe, there should be a `Definition Of Done` during the `Sprint Planning`. It does not define, when or what should be the `Definition Of Done`. The ideal time to update or refine the `Definition of Done` can be the `Sprint Retrospective`.
+
+### Definition of Done vs Acceptance Criteria
+
+| Definition of Done                             | Acceptance Criteria                 |
+| ---------------------------------------------- | ----------------------------------- |
+| Applicable to all the PBI                      | Applicable for a single PBI         |
+| Should perform and committed Product Increment | Might not perform Product Increment |
+| Created By SCRUM TEAM                          | Created by the developer            |
+| Mandatory option for SCRUM                     | Optional in SCRUM                   |
+
+## Summary of Artifacts
+
+`Product Owner` create the `Product Goal` and `Product Backlog`. Developers pick the `PBI` and plan for the Sprint with `Product Owner`. From `PBI`, developers are accountable for creating `SBI` and a SPRINT should have a `Spring Goal`. These `SBI` is forecasted, as `PBI` and `SBI` as both changes over time. When the Sprint is completed by the `Definition of Done`, then there should happen a `Product Increment`.
+
+Here, `SCRUM Master` is responsible for ensuring the `EMPIRICISM`
+
+- Transparency
+- Inspection
+- Adaptation
