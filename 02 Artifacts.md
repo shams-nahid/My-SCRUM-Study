@@ -2,6 +2,8 @@
 
 ### Overview
 
+---
+
 According to the Scrum Guide, there are 3 artifacts,
 
 1. Product Backlog
@@ -31,6 +33,8 @@ Here the `Commitment` stands for
 - What is the desired outcome
 
 ### Product Backlog
+
+---
 
 A product is something that customers use and get benefited. It could be a computer, vaccine or even a space-ship.
 
@@ -205,3 +209,27 @@ This method is referred as `Planning Poker`.
 ### Adding Value To Product Backlog
 
 Along with the developers put the backlog estimation, the product owner need to put the backlog value as well. SCRUM mandates, each product backlog should have a value. I can be done by creating a simple value scale. In the scale, you can add multiple values starting from 100 to 1000. When we have different product backlog items, we can arranged them base on perceived values on the scale. And using the scale we can assign each product backlog items the value as expected.
+
+### Spring Backlog
+
+---
+
+During the `Spring` planning meeting, the `Product Owner` what needs to be done to increase the product values. By collaborating with the `Product Owner`, the developers will decide, which items of the top list of `Product Backlog`, should be added to the `Spring Backlog`.
+
+The `Sprint Backlog` has a `Sprint Goal` to deliver the `Product Value Increment`.
+
+Since the developers are accountable for the `Sprint Backlog`, even the `Product Owner` can not change the `Sprint Backlog` without collaborating the developers.
+
+Each `Spring Backlog Item` comes from the decomposition of the `Product Backlog Items`.
+
+In a `Sprint`,
+
+- `Sprint Backlog Items` or tasks are `What To Do`
+- `Spring Plan` is `How To Do`
+- `Spring Goal` is `Why To Do`
+
+Any unfinished work from the `Sprint Backlog` will be goes back to the `Product Backlog`.
+
+### Sprint Scope vs Sprint Goal
+
+---
