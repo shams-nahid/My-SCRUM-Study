@@ -58,5 +58,75 @@ It is important to consider, the `Sprint` should never be delayed in any circums
 The `Spring Planning` describe
 
 - WHY the Sprint is valuable
+
+  > The `Sprint Goal` is towards the `Product Goal`, decided by the whole `SCRUM Team`. The `Sprint Goal` should be
+
+  - Specific
+  - Measurable
+  - Flexible
+
+    `Sprint Backlog` is taken from the top list of the `Product Backlog`.
+
 - WHAT needs to be done during the Sprint
+
+  > Sprint forecast the Sprint Goal. This show the potentially completed value, that will be gained after the Sprint is being completed.
+
+  How much value can be added, can be determined by,
+
+  - Past performance velocity
+  - Capacity of the Sprint (Length)
+  - Definition of Done (Improve Quality)
+
+  > The important concept in `Sprint Planning` is `Hands Off`. Here developer take/pull the backlog according to the previous history, velocity and quality. No one give/provide assign the backlog to the developers.
+
 - HOW the work will be done
+  - Developers responsibility: It is developer teams responsibility to make the Sprint Backlog meet the Definition of Done
+  - Decomposition of Work: If a Product Backlog is too big or complex, developers can make them smaller pieces called task.
+  - Too Much or To Little: If the Sprint has too much backlog or less backlog than expected, the team can seat with the Product owner and sort it out.
+
+### Daily SCRUM
+
+---
+
+It's a max 15 minutes meeting, happen daily, in the same time and places. The goal for the `Daily SCRUM` is `Inspection and Adaption`. It could be a discussion of
+
+- What did I did yesterday
+- What is today plan
+- Is there any blocker issue
+
+Even though this is an internal meeting, the developer team can allow others to be present. It is `SCRUM Master` responsibility to make sure, they do not disturbed the meeting.
+
+> This is a meeting of the developer, no to reporting the progress to the `Product Owner` or `Steak Holders`
+
+It helps
+
+- Identify problem
+- Find out a quick decision
+
+### Sprint Review
+
+---
+
+At the end of the Sprint, the developers should provide a potentially shippable product. It there is any `Sprint Backlog` not done during the Sprit, it will go to `Product Backlog`. The `Spring Review` meeting is hold by the `Product Owner` and SCRUM team and stakeholders are also invited. This meeting length can be 4 hours for a 1 month long Sprint.
+
+In meeting, it is shown, what is done and not done. Even sometimes a live demon is also shown to the `Stakeholders`.
+
+The developer team explains, what went well, what was the blocking issue and how the issue being solved.
+
+The stakeholders provide feedback on done part and marker analysis. The product backlog can be refined on these feedback.
+
+The product owner explain, what can be expected on the next sprint.
+
+### Sprint Retrospective
+
+---
+
+`Sprint Retrospective` is the last event of `Sprint`. We inspect and adapt the process through `Sprint Retrospective`. This meeting is limited to the `SCRUM Team`. Typically for a 1 month `Sprint` the meeting length is around 3 hours or less. `SCRUM Team` can change or strict the `Definition of Done` here. `Sprint Backlog` can be added for the next `Sprint`.
+
+### Sprint Cancellation
+
+---
+
+Cancellation is a very rare event and only the `Product Owner` can call this.
+
+For a cancelled Sprint, the completed `Sprint Backlog` will be reviewed and the incomplete `Sprint Backlog` will go to `Product Backlog` section.
